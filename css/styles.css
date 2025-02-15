@@ -121,7 +121,6 @@ img{
 /* #region Hero */
 .hero {
     background-color: #2e2f42;
-    height: 600px;
 }
 
 .hero-title {
@@ -205,7 +204,6 @@ img{
 
 .team {
     background-color: #f4f4fd;
-    height: 732px;
 }
 
 .team-title {
@@ -289,7 +287,6 @@ img{
 }
 
 .portfolio-list-item {
-    border: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3 );
 }
 .portfolio-block{
@@ -297,7 +294,9 @@ img{
     flex-direction: column;
     gap: 8px;
     margin: 32px 0;
-
+border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
 }
 
 .portfolio-img {}
@@ -323,7 +322,6 @@ img{
 /* #region Footer*/
 .footer{
     background-color: #2e2f42;
-    height: 312px;
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
