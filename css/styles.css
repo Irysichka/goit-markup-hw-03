@@ -125,6 +125,7 @@ img{
 /* #region Hero */
 .hero {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -134,9 +135,8 @@ img{
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        width: 496px;
+        max-width: 496px;
         margin-bottom: 48px;
-        padding-top: 188px;
 }
 
 .button {
@@ -149,9 +149,12 @@ img{
         background-color: #4d5ae5;
         text-align: center;
         border-radius: 4px;
+        border: none;
         margin: 0 auto;
         margin-top: 48px;
         padding: 16px 32px;
+        min-width: 169px;
+        height: 56px
 
 }
 
@@ -183,7 +186,9 @@ img{
     gap: 24px;
 }
 
-.test-item {}
+.test-item {
+    width: calc((100% - 72px) / 4);
+}
 
 .test-item-title {
         font-weight: 500;
@@ -191,6 +196,7 @@ img{
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .test-item-text {
@@ -237,6 +243,7 @@ img{
 .team-block-text{
     margin: 32px 16px;
     text-align: center;
+    padding: 32px 0;
 }
 
 .team-img-item {
@@ -289,13 +296,11 @@ img{
     width: calc((100% - 48px) / 3 );
 }
 .portfolio-block{
-    padding-top: 32px ;
-    padding-bottom: 32px;
-    padding-left: 16px;
 border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     text-align: left;
+    padding: 32px 16px;
 }
 
 .portfolio-img {}
@@ -323,6 +328,7 @@ border-bottom: 1px solid #e7e9fc;
 /* #region Footer*/
 .footer{
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -332,9 +338,8 @@ border-bottom: 1px solid #e7e9fc;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        display: block;
-        padding-top: 100px;
         margin-bottom: 16px;
+        display: inline-block;
 }
 
 .footer-logo-style{
@@ -347,7 +352,7 @@ border-bottom: 1px solid #e7e9fc;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-        padding-bottom: 100px;
+     max-width: 264px;
 
 }
 
